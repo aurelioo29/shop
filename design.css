@@ -1,0 +1,21 @@
+* {
+      padding: 0;
+      margin: 0;
+      font-family: 'Ubuntu', sans-serif;
+      list-style: none;
+      text-decoration: none;
+}
+
+.sidebar{
+      position: fixed;
+      left: 0;
+      width: 180px;
+      height: 100%;
+      background-color: #111827;
+}
+
+.sidebar header{
+      color: white;
+      text-align: center;
+      font-size: 40px;
+}
