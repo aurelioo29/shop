@@ -1,82 +1,89 @@
-* {
+body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body{
+p{
   font-family: 'Montserrat', sans-serif;
 }
 
-/* navbar section */
-nav{
-  display: flex;
-  background-color: aquamarine;
-  justify-content: space-around;
-  padding: 23px 0; 
-}
-
-nav .judul{
-  font-family: 'Playfair', serif;
-  letter-spacing: 1px;
-  font-size: 20px;
-}
-
-nav ul{
-  display: flex;
-  list-style: none;
-  text-decoration: none;
-  justify-content: space-evenly;
-  width: 30%;
-}
-
-nav ul li a{
+/* Design Navbar */
+.nav-item a{
   text-decoration: none;
   color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-family: 'Montserrat', sans-serif;
 }
-
-nav ul li a:hover{
+.nav-item a:hover{
+  color: rgb(20, 219, 20);
+}
+.navbar-brand{
+  height: 50px;
+  width: 100px;
+}
+.search{
+  height: 45px;
+  outline: none;
+  border: 3px solid rgb(20, 219, 20);
+  background-color: transparent;
+  border-radius:20px 0px 0px 20px;
+  border-right: none;
+}
+.btn1{
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: rgb(20, 219, 20);
   color: white;
+  border-radius: 0px 20px 20px 0px;
+  transition: all 0.4s;
+}
+.btn1:hover{
+  background-color: rgb(20, 219, 20);
+}
+.navbar-toggler{
+  font-size: 23px;
+  color: black;
+}
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
 }
 
-/* menu section */
-.menu-toggle{
-  display: flex;
-  flex-direction: column;
-  height: 20px;
-  justify-content: space-between;
-  position: relative;
+/* Design Top */
+.main{
+  background-image: url(imgs/m1.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 }
-.menu-toggle input{
-  position: absolute;
-  width: 40px;
-  height: 28px;
-  left: -6.3px;
-  top: -3px;
-  opacity: 0;
-  cursor: pointer;
+.main h1{
+  font-size: 5rem;
+  font-family: 'Righteous', cursive;
 }
-.menu-toggle span{ 
-  display: block;
-  width: 28px;
-  height: 3px;
-  background-color: black;
+.main p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
 }
-
-/* menu responsive */
-.menu-toggle span:nth-child(2){
-  
+.main p:nth-child(2){
+  font-size: 18px;
+  color: grey;
 }
-
-.menu-toggle input:
-
-/* responsive section */
-@media screen and(max-width: 768px) {
-  nav ul{
-    width: 50%;
-  }
+.mbtn1{
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color: white;
+  background: rgb(20, 219, 20);
+  border-radius: 50px;
+  transition: all 0.4s;
 }
-@media screen and(max-width: 576PX) {
-  nav ul{
-    display: none;
-  }
+.mbtn1:hover{
+  background-color: rgb(20, 219, 20);
 }
