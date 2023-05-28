@@ -87,3 +87,25 @@ p{
 .mbtn1:hover{
   background-color: rgb(20, 219, 20);
 }
+.line{
+  height: 5px;
+  width: 75%;
+  background: rgb(20, 219, 20);
+  display: inline-block;
+}
+
+/* Design Product */
+.welcome{
+  background-color: rgb(20, 219, 20);
+}
+.welcome h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.line2{
+  height: 5px;
+  width: 70%;
+  background: white;
+  display: inline-block;
+}
+/* === Card Section === */
