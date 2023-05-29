@@ -102,6 +102,7 @@ p{
 .welcome h1{
   font-size: 3rem;
   font-weight: bold;
+  font-family: 'Righteous', cursive;
 }
 .line2{
   height: 5px;
@@ -109,4 +110,75 @@ p{
   background: white;
   display: inline-block;
 }
-/* === Card Section === */
+
+/* Design Review */
+.review h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+}
+.review p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 100px;
+}
+.review p:nth-child(2){
+  font-size: 18px;
+  color: grey;
+}
+
+.star{
+  text-align: end;
+  color: orange;
+}
+.review .card{
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.review .card-body{
+  border: 1px dashed rgb(202, 200, 200);
+}
+.head1{
+  font-weight: 500;
+  margin: 0;
+}
+.mid1{
+  color: rgb(112, 91, 91);
+}
+.btnc{
+  height: 50px;
+  width: 50%;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: rgb(20, 219, 20);
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.4s;
+}
+.btnc:hover{
+  outline: none;
+  border: 1px solid rgb(20, 219, 20);
+  background: transparent;
+  border-radius: 50px;
+}
+
+/* Design Employees */
+.employ{
+  background-color: rgb(20, 219, 20);
+}
+.employ h2{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Righteous', cursive;
+}
+
+.employ i{
+  color: orange;
+}
+.employ .card{
+  border-radius: 0;
+  border: none;
+}
