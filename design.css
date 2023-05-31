@@ -182,3 +182,9 @@ p{
   border-radius: 0;
   border: none;
 }
+
+/* Footer */
+.footer{
+  background-color: #e5e7dc;
+  font-size: 35px;
+}
