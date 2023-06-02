@@ -184,7 +184,28 @@ p{
 }
 
 /* Footer */
-.footer{
+footer{
   background-color: #e5e7dc;
-  font-size: 35px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2rem;
+  color: black;
+}
+.socialIcons a:hover i{
+  color: rgb(112, 91, 91);
+  transition: 0.3s;
+}
+.footerBottom p{
+  color: black;
+  display: flex;
+  justify-content: center;
 }
